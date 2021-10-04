@@ -18,6 +18,7 @@ const Eqipment = (props) => {
                             <h5 class="card-title">{subject}</h5>
                             <h4>Price:{price}$</h4>
                             <p class="card-text">{about.slice(1,200)}</p>
+        <button className="btn" style={{backgroundColor: "#ec407a"}}>Purches</button>
                         </div>
                         </div>
                     </div>

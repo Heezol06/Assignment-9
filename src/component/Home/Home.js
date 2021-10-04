@@ -9,8 +9,8 @@ const Home = () => {
         .then(data => setHomeService(data))
     },[])
     return (
-        <div className="container">
-            <h1>Our Services</h1>
+        <div className="container my-5">
+            <h1  style={{color:"#ec407a", textDecoration: "underline"}}>Our Services</h1>
             <div className="row">
             {
                 homeServices.map(homeService => <Eqipment

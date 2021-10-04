@@ -9,8 +9,8 @@ const Service = () => {
         .then(data => setService(data))
     },[])
     return (
-        <div className="container">
-            <h2>Service For You</h2>
+        <div className="container  my-5">
+            <h2 style={{color:"#ec407a", textDecoration: "underline"}}>Service For You</h2>
             <div className="row ">
                 {
                     services.map(service => <SingleService

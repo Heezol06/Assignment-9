@@ -22,8 +22,8 @@ const Footer = () => {
                         </p>
                 </div>
                </div>
-                <div className="col-md-4 mt-3">
-                    <h1>Our courses</h1>
+                <div className="col-md-4 mt-4">
+                    <h3>Our courses</h3>
                     <div className="d-flex m-2 my-4">
                     <div>
                     <p>Digital intermediate Photography</p>
@@ -37,8 +37,8 @@ const Footer = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col-md-4">
-                    <h1>Suggestion Part</h1>
+                <div className="col-md-4 mt-4">
+                    <h3>Suggestion Part</h3>
                     <p className="m-4">If you want to suggest us anything then you can write here </p>
                     <input type="text" placeholder="write your suggestion here" style={{border: "1px solid black" , borderRadius: "15px", padding: "5px"}}/>
                     <div className="my-5">
