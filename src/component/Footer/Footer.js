@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr />
-            <p className="py-5">© Themesflat - Education WordPress Theme. All Rights Reserved.</p>
+            <p className="py-5 m-0">© Education site -  Learn Photography. All Rights Reserved.</p>
         </div>
     );
 };
