@@ -1,0 +1,15 @@
+.banner-img {
+  background-image: url("https://images.unsplash.com/photo-1633177032046-a82261948e62?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  color: rgba(242, 248, 248, 0.644);
+  padding: 180px;
+  font-weight: 300;
+  background-size: cover;
+}
+.title {
+  color: #ec407a;
+}
+.discription {
+  color: #fce4ec;
+}
