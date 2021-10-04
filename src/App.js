@@ -12,6 +12,7 @@ import Service from './component/Service/Service';
 import About from './component/About/About';
 import Footer from './component/Footer/Footer';
 import Contact from './component/Contact/Contact';
+import NotFound from './component/NotFound/NotFound';
 function App() {
   return (
     <div className="App">
@@ -32,6 +33,9 @@ function App() {
                 </Route>
                 <Route path="/contactus">
                   <Contact></Contact>
+                </Route>
+                <Route exact path="*">
+                  <NotFound></NotFound>
                 </Route>
               </Switch>
               <Footer></Footer>
