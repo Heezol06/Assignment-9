@@ -1,3 +1,13 @@
 .about-sec {
-  padding: 500px;
+  /* padding: 500px; */
+  margin: 100px;
+  border-radius: 30px;
+  background-color: #334756;
+}
+.img-radius {
+  border-radius: 0 30px 30px 0;
+}
+.student-sec {
+  background-color: #334756;
+  border-radius: 10px;
 }

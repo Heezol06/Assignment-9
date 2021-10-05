@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Eqipment from '../Eqipment/Eqipment';
+import './Home.css'
 
 const Home = () => {
     const [homeServices , setHomeService] = useState([])
@@ -17,7 +18,8 @@ const Home = () => {
                     homeService={homeService}
                 ></Eqipment>)
             }
-            <div className="d-flex flex-row">
+            {/* disciption about photography  */}
+            <div className="d-flex flex-row my-5">
                 <div className="col-md-4">
                 <img src={"https://image.freepik.com/free-vector/focus-concept-illustration_114360-1291.jpg"} alt="" srcset="" className="w-75" />
                 <p>Learning about light, exposure, color, tone, composition and timing will help you produce more creative, more interesting, more noticeable photographs. ... Learning to appreciate different types of light and when some light is better for making photos than others, will help you create more outstanding photographs.</p>
@@ -31,9 +33,93 @@ const Home = () => {
                 <p>Create images that attract attention and win clients. Advertising and product photography is often seen as one of the most complex areas of professional photography. It's also one of the most lucrative.</p>
                 </div>
             </div>
+            
+            {/* company analaysis  */}
+            <div className="container text-light d-flex bg-dark rounded my-5">
+                <div className="col-md-4 p-3 py-4">
+                    <h1>
+                    7
+                    </h1>
+                    <h3 className="title">Completed Courses</h3>
+                    <p>
+                    We have won awards in a short time
+                    </p>
+                </div>
+                <div className="col-md-4 p-3 py-4">
+                    <h1>
+                    2412
+                    </h1>
+                    <h3 className="title">Happy Students</h3>
+                    <p>
+                    We have hundreds of happy clients
+                    </p>
+                </div>
+                <div className="col-md-4 p-3 py-4">
+                    <h1>
+                    3422
+                    </h1>
+                    <h3 className="title ">Hardly Teaching Hours</h3>
+                    <p>
+                    We completed more items in 2016 season
+                    </p>
+                </div>
+            </div>
+            </div>
+
+            {/* About our instractor  */}
+            <div className="container my-5 ">
+                <h3 className="title my-5" style={{textDecoration: "underline"}}>
+                Meet Our Experts
+                </h3>
+                <div className="d-flex gap-3">
+                <div className="col-md-3">
+                    <div class="card h-100" >
+                    <img src={"https://psdconverthtml.com/live/edupress/upload/testi_01.png"} class="card-img-top"  alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">John Doe</h5>
+                        <p className="text-danger">CEO</p>
+                        <p class="card-text">I have more than 20 years’ experience in Office  sit amet consectetur adipisicing elit. Nemo, architecto i don't believe in to much talk i just believe in work. And i alwase like to be busy in my work...</p>
+                    </div>
+                </div>
+                </div>
+                <div className="col-md-3">
+                <div class="card h-100" >
+                    <img src={"https://psdconverthtml.com/live/edupress/upload/testi_02.png"}  class="card-img-top"  alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Bernice Neumann</h5>
+                        <p className="text-danger">Profestional Photographer</p>
+                        <p class="card-text">I am one of the most popualr and  experienced photographer in bangladesh. People called me a wild photographer but i am doing good at wedding and product too. Most of the time i would like to take short by dron...</p>
+                    </div>
+                </div>
+                </div>
+                <div className="col-md-3">
+                <div class="card h-100" >
+                    <img src={"https://psdconverthtml.com/live/edupress/upload/testi_03.png"}  class="card-img-top"  alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Jenny Cameron</h5>
+                        <p className="text-danger">Profestional Photo Editor</p>
+                        <p class="card-text">I am one of the editor of this company an i believe that while a photographer will ensure the proper lighting, framing, and environment prior to taking the photograph, an editor...</p>
+                    </div>
+                </div>
+                </div>
+                <div className="col-md-3">
+                <div class="card h-100" >
+                    <img src={"https://psdconverthtml.com/live/edupress/upload/testi_04.png"}  class="card-img-top"  alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Bob Neumann</h5>
+                        <p className="text-danger">Market Expart</p>
+                        <p class="card-text">Successful marketing and branding are among the most challenging aspects of a profitable photography business.Many photographers make the mistake of letting their marketing...</p>
+                    </div>
+                </div>
+                </div>
+                </div>
             </div>
         </div>
     );
 };
 
 export default Home;
+
+
+
+// style={{height: "250px" , width: "270px"}} 
