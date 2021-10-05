@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import img from "../../img/camera-logo.png";
-import Banner from '../Banner/Banner';
 import "./Header.css"
 const Header = () => {
     return (
@@ -67,7 +66,6 @@ const Header = () => {
     </Container>
   </Navbar>
             </div>
-            <Banner></Banner>
         </div>
     );
 };

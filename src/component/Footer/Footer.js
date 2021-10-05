@@ -4,7 +4,7 @@ import img from "../../img/camera-logo.png";
 const Footer = () => {
     return (
         <div className="bg-dark text-light">
-            <div className="row text-light ">
+            <div className="row text-light  m-0">
                <div className="col-md-4">
                             <div className="d-flex justify-content-center align-items-center">
                                 <img
