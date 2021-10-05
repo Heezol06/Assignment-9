@@ -7,16 +7,16 @@ const Eqipment = (props) => {
     return (
                 <div className="col-md-6">
                 <Col className="my-4">
-                 <div class="card mb-3" style={{maxWidth: "540px"}}>
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                        <img src={img} class="img-fluid rounded-start" alt="..." />
+                 <div className="card mb-3" style={{maxWidth: "540px"}}>
+                    <div className="row g-0">
+                        <div className="col-md-4">
+                        <img src={img} className="img-fluid rounded-start" alt="..." />
                         </div>
-                        <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">{subject}</h5>
+                        <div className="col-md-8">
+                        <div className="card-body">
+                            <h5 className="card-title">{subject}</h5>
                             <h4>Price:{price}$</h4>
-                            <p class="card-text">{about.slice(1,200)}</p>
+                            <p className="card-text">{about.slice(1,200)}</p>
                             <button className="btn text-light" style={{backgroundColor: "#ec407a"}}>Purchase</button>
                         </div>
                         </div>

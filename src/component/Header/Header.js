@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div>
             <div>
-            <Navbar bg="dark" variant="dark"  className="d-flex justify-content-between">
+            <Navbar bg="dark" variant="dark"  className="d-flex justify-content-between fixed-top">
     <Container >
     <div>
     <img

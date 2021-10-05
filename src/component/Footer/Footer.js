@@ -42,10 +42,10 @@ const Footer = () => {
                     <p className="m-4">If you want to suggest us anything then you can write here </p>
                     <input type="text" placeholder="write your suggestion here" style={{border: "1px solid black" , borderRadius: "15px", padding: "5px"}}/>
                     <div className="my-5">
-                    <i class="fab fa-facebook-square fa-2x me-3 ms-4"></i>
-                    <i class="fab fa-instagram-square fa-2x me-3"></i>
-                    <i class="fab fa-twitter-square fa-2x me-3"></i>
-                    <i class="fab fa-linkedin fa-2x me-3"></i>
+                    <i className="fab fa-facebook-square fa-2x me-3 ms-4"></i>
+                    <i className="fab fa-instagram-square fa-2x me-3"></i>
+                    <i className="fab fa-twitter-square fa-2x me-3"></i>
+                    <i className="fab fa-linkedin fa-2x me-3"></i>
                     </div>
                 </div>
             </div>

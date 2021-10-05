@@ -18,6 +18,7 @@ const Home = () => {
             <div className="row">
             {
                 homeServices.map(homeService => <Eqipment
+                    key={homeService.key}
                     homeService={homeService}
                 ></Eqipment>)
             }
@@ -77,42 +78,42 @@ const Home = () => {
                 </h3>
                 <div className="d-flex gap-3">
                 <div className="col-md-3">
-                    <div class="card h-100" >
-                    <img src={"https://psdconverthtml.com/live/edupress/upload/testi_01.png"} class="card-img-top"  alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">John Doe</h5>
+                    <div className="card h-100" >
+                    <img src={"https://psdconverthtml.com/live/edupress/upload/testi_01.png"} className="card-img-top"  alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">John Doe</h5>
                         <p className="text-danger">CEO</p>
-                        <p class="card-text">I have more than 20 years’ experience in Office  sit amet consectetur adipisicing elit. Nemo, architecto i don't believe in to much talk i just believe in work. And i alwase like to be busy in my work...</p>
+                        <p className="card-text">I have more than 20 years’ experience in Office  sit amet consectetur adipisicing elit. Nemo, architecto i don't believe in to much talk i just believe in work. And i alwase like to be busy in my work...</p>
                     </div>
                 </div>
                 </div>
                 <div className="col-md-3">
-                <div class="card h-100" >
-                    <img src={"https://psdconverthtml.com/live/edupress/upload/testi_02.png"}  class="card-img-top"  alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">Bernice Neumann</h5>
+                <div className="card h-100" >
+                    <img src={"https://psdconverthtml.com/live/edupress/upload/testi_02.png"}  className="card-img-top"  alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Bernice Neumann</h5>
                         <p className="text-danger">Profestional Photographer</p>
-                        <p class="card-text">I am one of the most popualr and  experienced photographer in bangladesh. People called me a wild photographer but i am doing good at wedding and product too. Most of the time i would like to take short by dron...</p>
+                        <p className="card-text">I am one of the most popualr and  experienced photographer in bangladesh. People called me a wild photographer but i am doing good at wedding and product too. Most of the time i would like to take short by dron...</p>
                     </div>
                 </div>
                 </div>
                 <div className="col-md-3">
-                <div class="card h-100" >
-                    <img src={"https://psdconverthtml.com/live/edupress/upload/testi_03.png"}  class="card-img-top"  alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">Jenny Cameron</h5>
+                <div className="card h-100" >
+                    <img src={"https://psdconverthtml.com/live/edupress/upload/testi_03.png"}  className="card-img-top"  alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Jenny Cameron</h5>
                         <p className="text-danger">Profestional Photo Editor</p>
-                        <p class="card-text">I am one of the editor of this company an i believe that while a photographer will ensure the proper lighting, framing, and environment prior to taking the photograph, an editor...</p>
+                        <p className="card-text">I am one of the editor of this company an i believe that while a photographer will ensure the proper lighting, framing, and environment prior to taking the photograph, an editor...</p>
                     </div>
                 </div>
                 </div>
                 <div className="col-md-3">
-                <div class="card h-100" >
-                    <img src={"https://psdconverthtml.com/live/edupress/upload/testi_04.png"}  class="card-img-top"  alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">Bob Neumann</h5>
+                <div className="card h-100" >
+                    <img src={"https://psdconverthtml.com/live/edupress/upload/testi_04.png"}  className="card-img-top"  alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Bob Neumann</h5>
                         <p className="text-danger">Market Expart</p>
-                        <p class="card-text">Successful marketing and branding are among the most challenging aspects of a profitable photography business.Many photographers make the mistake of letting their marketing...</p>
+                        <p className="card-text">Successful marketing and branding are among the most challenging aspects of a profitable photography business.Many photographers make the mistake of letting their marketing...</p>
                     </div>
                 </div>
                 </div>
